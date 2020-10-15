@@ -12,7 +12,7 @@ inquirer
         {
             type: "input",
             message: "Please provide a description of your program",
-            name: "title",
+            name: "description",
         },
         {
             type: "input",
@@ -50,8 +50,76 @@ inquirer
             name: "links",
         },
     ])
-    .then(function (response) {
-        let projectName = ` ${response.projectName} `;
-       
+    .then(function (response) {       
+
+        fs.appendFile("README.md", response, (err) => {
+            if (err) throw err;
+            console.log(response );
+        })
+
+
+        const readMe = `Table of contents 
+        +++++++++++++++++++++++++++++++++++
+        ${response.tableOfContents}
+        
+        
+        
+        Description
+        ++++++++++++++++++++++++++++++++++++
+        ${response.description}
+        
+        
+        
+        How to Install
+        +++++++++++++++++++++++++++++++++++++
+        ${response.installation}
+        
+        
+        
+        Usage
+        +++++++++++++++++++++++++++++++++++++
+        ${response.usageGuide}
+        
+        
+
+        License 
+        ++++++++++++++++++++++++++++++++++++
+        ${response.licenses}
+
+
+
+
+        Contributors/Contributions
+        ++++++++++++++++++++++++++++++++++++
+        ${response.credits}
+
+
+
+
+        Tests
+        ++++++++++++++++++++++++++++++++++++
+        ${response.tests}
+
+
+
+        GitHub
+        +++++++++++++++++++++++++++++++++++
+        github.com/${response.github}
+
+
+
+        Additional Links
+        +++++++++++++++++++++++++++++++++++
+        ${response.links}
+
+
+        `;
+
+
+        fs.appendFile("README.md", readMe, (err) => {
+            if (err) throw err;
+            console.log(response );
+        })
     });
     
+     
