@@ -1,37 +1,37 @@
-# READMEwriter[object Object][object Object][object Object][object Object]Table of contents 
+Table of contents 
         +++++++++++++++++++++++++++++++++++
-        df
+         steps for installation usage guide credits links licences 
         
         
         
         Description
         ++++++++++++++++++++++++++++++++++++
-        d
+        it writes a readme.md
         
         
         
         How to Install
         +++++++++++++++++++++++++++++++++++++
-        d
+        node readmewriter.js
         
         
         
         Usage
         +++++++++++++++++++++++++++++++++++++
-        
+        use it to write a readme
         
         
 
         License 
         ++++++++++++++++++++++++++++++++++++
-        d
+        orhiley90
 
 
 
 
         Contributors/Contributions
         ++++++++++++++++++++++++++++++++++++
-        d
+        fs inquirer rhiley
 
 
 
@@ -50,117 +50,7 @@
 
         Additional Links
         +++++++++++++++++++++++++++++++++++
-        d
+        N/A
 
 
-        Table of contents 
-        +++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        Description
-        ++++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        How to Install
-        +++++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        Usage
-        +++++++++++++++++++++++++++++++++++++
-        
-        
-        
-
-        License 
-        ++++++++++++++++++++++++++++++++++++
-        
-
-
-
-
-        Contributors/Contributions
-        ++++++++++++++++++++++++++++++++++++
-        
-
-
-
-
-        Tests
-        ++++++++++++++++++++++++++++++++++++
-        undefined
-
-
-
-        GitHub
-        +++++++++++++++++++++++++++++++++++
-        github.com/undefined
-
-
-
-        Additional Links
-        +++++++++++++++++++++++++++++++++++
-        
-
-
-        [object Object][object Object]Table of contents 
-        +++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        Description
-        ++++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        How to Install
-        +++++++++++++++++++++++++++++++++++++
-        
-        
-        
-        
-        Usage
-        +++++++++++++++++++++++++++++++++++++
-        
-        
-        
-
-        License 
-        ++++++++++++++++++++++++++++++++++++
-        
-
-
-
-
-        Contributors/Contributions
-        ++++++++++++++++++++++++++++++++++++
-        
-
-
-
-
-        Tests
-        ++++++++++++++++++++++++++++++++++++
-        undefined
-
-
-
-        GitHub
-        +++++++++++++++++++++++++++++++++++
-        github.com/undefined
-
-
-
-        Additional Links
-        +++++++++++++++++++++++++++++++++++
-        
-
-
-        
+        [object Object]

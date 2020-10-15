@@ -50,7 +50,8 @@ inquirer
             name: "links",
         },
     ])
-    .then(function (response) {       
+    .then(function (response) {
+       
 
         fs.appendFile("README.md", response, (err) => {
             if (err) throw err;
